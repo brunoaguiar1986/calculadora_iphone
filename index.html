@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <script src="js/script.js"></script>
+    <title>Calculadora Iphone</title>
+</head>
+
+<body>
+    <div class="container-grid">
+        <div class="calculadora">
+            <input id="resultado" type="text" class="form-control resultado" placeholder="0" disabled="disabled" />
+            <table>
+                <tr>
+                    <td><input type="button" class="button" id="ac" value="AC" onclick="calcular('acao', 'c')"></td>
+                    <td><input type="button" class="button" id="apagar" value="C" onclick="calcular('acao', 'ac')"></td>
+                    <td><input type="button" class="button" id="porcento" value="%" onclick=""></td>
+                    <td><input type="button" class="button" id="divide" value="&divide;" onclick="calcular('acao', '/')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" id="sete" value="7" onclick="calcular('valor','7')"></td>
+                    <td><input type="button" class="button" id="oito" value="8" onclick="calcular('valor','8')"></td>
+                    <td><input type="button" class="button" id="nove" value="9" onclick="calcular('valor','9')"></td>
+                    <td><input type="button" class="button" id="vezes" value="x" onclick="calcular('acao', '*')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" id="quatro" value="4" onclick="calcular('valor','4')"></td>
+                    <td><input type="button" class="button" id="cinco" value="5" onclick="calcular('valor','5')"></td>
+                    <td><input type="button" class="button" id="seis" value="6" onclick="calcular('valor','6')"></td>
+                    <td><input type="button" class="button" id="menos" value="-" onclick="calcular('acao', '-')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" id="um" value="1" onclick="calcular('valor','1')"></td>
+                    <td><input type="button" class="button" id="dois" value="2" onclick="calcular('valor','2')"></td>
+                    <td><input type="button" class="button" id="tres" value="3" onclick="calcular('valor','3')"></td>
+                    <td><input type="button" class="button" id="mais" value="+" onclick="calcular('acao', '+')"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" class="button" id="zero" value="0" onclick="calcular('valor','0')"></td>
+                    <td><input type="button" class="button" id="virgula" value="." onclick="calcular('acao', '.')"></td>
+                    <td><input type="button" class="button" id="igual" value="=" onclick="calcular('acao', '=')"></td>
+                </tr>
+            </table>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', cursive;
+    color: white;
+    background-image: linear-gradient(45deg, black, rgb(0, 238, 255));
+}
+
+.container-grid {
+    width: 300px;
+    height: 470px;
+    margin: 0 auto;
+    background-color: black;
+    padding-top: 10px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px #000;
+    border: solid 1px #000;
+}
+
+#resultado{
+    width: 280px;
+    text-align: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 60px;
+    font-size: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.button{
+    margin: 6px;
+}
+
+#ac:hover, #apagar:hover, #porcento:hover{
+    background-color: white;
+}
+
+#divide:hover, #vezes:hover, #menos:hover, #mais:hover, #igual:hover{
+    background-color: white;
+    color: orange;
+}
+
+#ac, #apagar, #porcento{
+    background-color: #a5a5a5;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    color: black;
+    border-radius: 30px;
+    text-align: center;
+    border: none;
+}
+
+#sete, #oito, #nove, #quatro, #cinco, #seis, #um, #dois, #tres, #zero, #virgula{
+    background-color: #333333;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    color: black;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+#sete:hover, #oito:hover, #nove:hover, #quatro:hover, #cinco:hover, #seis:hover, #um:hover, #dois:hover, #tres:hover, #zero:hover, #virgula:hover{
+    background-color: rgb(128, 128, 128);
+}
+
+#divide, #vezes, #menos, #mais, #igual {
+    background-color: #fb9e13;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    color: black;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+#zero {
+    width: 90%;
+    padding-right: 70px;
+}
